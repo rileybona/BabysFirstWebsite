@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="eng-US">
+<head>
+    <meta charset="utf-8">
+    <title>Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+     <!-- Navigation Bar -->
+     <div class="navBar">
+        <a class="p1" href="page1.html">Page 1</a>
+        <a class="p2" href="page2.html">Page 2</a>
+        <a class="p2" href="page3.html">Page 3</a>
+        <a class="p2" href="page4.html">Page 4</a>
+    </div>
+    <!-- Section One - Header -->
+    <div class="header">
+    <h1> TEST PAGE 2</h1>
+    </div>
+    <!-- Section Two - Form -->
+    <div class="content"> <!-- is this necessary ?-->
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend> Sign Up !</legend>
+
+                <div>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email_address">
+                </div>
+
+                <div>
+                    <label for="check">Make emails with love?</label>
+                    <input type="checkbox" id="check" name="make_with_love">
+                </div>
+
+                <div>
+                    <label for="suggestions">What website would you like to see next?</label>
+                    <textarea id="suggestions" name="suggestions">or write a haiku?</textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Sign me up!</button>
+                </div>
+
+            </fieldset>
+        </form>
+
+    </div>
+</body>
+</html>
