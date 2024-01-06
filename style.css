@@ -3,19 +3,33 @@
 body {
     border: none;
     margin: 0;
+    background-image: linear-gradient(#8FE7EB, black);
+}
+
+.test {
+    height: 500px;
 }
 
 h1 {
     box-sizing: border-box;
     margin: 0;
     line-height: 5;
+    text-align: center;
+    margin-bottom: -50px;
 }
+
+.content {
+    color: rgba(255, 255, 255, 0.869);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 
 .navBar {
     box-sizing: border-box;
     height: 40px;
     width: 100%;
-    background-color: grey;
+    background-color: #46473E;
     overflow: hidden;
     display: flex;
     justify-content: space-around;
@@ -35,3 +49,99 @@ h1 {
     background-color: aquamarine;
     color:black;
 }
+
+
+/* Page Four Focus */
+
+#albumCovers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 50px;;
+}
+
+.container {
+    height: 241px;
+    width: 220px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#charliContainer {
+    width: 237px;
+}
+
+#albumCovers img {
+    height: 220px;
+}
+
+#albumCovers label {
+    display: inline-block;
+    color: white;
+}
+
+
+.footer {
+    text-align: center;
+    color: rgba(255, 255, 240, 0.671);
+    margin-bottom: 20px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Page 1 Focus */
+
+
+.header img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border:solid;
+    border-color: #E2D686;
+}
+
+
+/* Page 2 Focus  */
+.content form {
+    display: flex;
+    justify-content: center;
+    color:#46473E;
+    margin-top: 5%;
+}
+
+.content fieldset {
+    background-color: #fff1989a;
+}
+
+legend {
+    background-color: #fff1989a;
+}
+
+#firstName {
+    display: block;
+    margin-bottom: 8px;
+}
+#lastName {
+    display: block;
+    margin-bottom: 8px;
+}
+#email {
+    display: block;
+    margin-bottom: 8px;
+
+}
+#suggestions {
+    display: block;
+    margin-bottom: 8px;
+}
+
+textarea {
+    color: rgba(0, 0, 0, 0.37);
+}
+
+
+/* Page 3 Focus */
